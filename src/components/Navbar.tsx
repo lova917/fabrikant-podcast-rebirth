@@ -15,7 +15,7 @@ const Navbar = () => {
         </Button>
         <Button 
           variant="outline" 
-          className="text-lg text-white border-white hover:bg-white hover:text-blue-600 transition-colors"
+          className="text-lg text-white border-white hover:text-blue-600 transition-colors"
         >
           דבר איתי
         </Button>
