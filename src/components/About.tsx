@@ -22,7 +22,7 @@ const About = () => {
           </div>
           <div className="lg:w-1/2">
             <img
-              src="/lovable-uploads/6bd82152-77ee-4421-a528-bf04aabdb454.png"
+              src="/lovable-uploads/f973337a-2ffc-4ac8-ba82-c8cf4b112180.png"
               alt="משה פבריקנט"
               className="rounded-lg shadow-lg w-full"
             />
