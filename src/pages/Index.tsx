@@ -1,9 +1,8 @@
-
 import React from "react";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import Stats from "@/components/Stats";
-import Episodes from "@/components/Episodes";
+import EpisodesGrid from "@/components/EpisodesGrid";
 import About from "@/components/About";
 import Footer from "@/components/Footer";
 
@@ -13,7 +12,7 @@ const Index = () => {
       <Navbar />
       <Hero />
       <Stats />
-      <Episodes />
+      <EpisodesGrid />
       <About />
       <Footer />
     </div>

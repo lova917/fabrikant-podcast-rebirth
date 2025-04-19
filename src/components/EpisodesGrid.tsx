@@ -1,9 +1,8 @@
-
 import React from "react";
 import { Card, CardContent } from "./ui/card";
 import { Button } from "./ui/button";
 
-const Episodes = () => {
+const EpisodesGrid = () => {
   const episodes = [
     {
       title: "ליברמן בראיון מיוחד",
@@ -56,4 +55,4 @@ const Episodes = () => {
   );
 };
 
-export default Episodes;
+export default EpisodesGrid;
