@@ -10,7 +10,7 @@ const Hero = () => {
         className="absolute inset-0 bg-cover bg-center z-0"
         style={{
           backgroundImage: "url('/lovable-uploads/29a91f7b-7cb2-4bfa-9f60-40029afa3e5d.png')",
-          filter: "brightness(0.6)"
+          filter: "brightness(0.5)"
         }}
       />
       <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
@@ -28,7 +28,7 @@ const Hero = () => {
           <Button 
             size="lg"
             variant="outline"
-            className="text-lg px-8 text-white border-white hover:bg-white/20"
+            className="text-lg px-8 text-white border-white hover:bg-white hover:text-blue-600 transition-colors"
           >
             דבר איתי
           </Button>

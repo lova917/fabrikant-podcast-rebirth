@@ -13,7 +13,8 @@ const Episodes = () => {
     {
       title: "צבי יחזקאלי",
       description: "כתב לענייני ערבית",
-      image: "/lovable-uploads/60c0ef86-6d52-4359-b5c9-92035d0ee13b.png"
+      image: "/lovable-uploads/60c0ef86-6d52-4359-b5c9-92035d0ee13b.png",
+      objectPosition: "top center"
     },
     {
       title: "האלוף יצחק בריק",
@@ -35,11 +36,17 @@ const Episodes = () => {
                 src={episode.image} 
                 alt={episode.title}
                 className="w-full h-48 object-cover"
+                style={{ objectPosition: episode.objectPosition || "center" }}
               />
               <CardContent className="p-6">
                 <h3 className="text-xl font-bold mb-2">{episode.title}</h3>
                 <p className="text-gray-600 mb-4">{episode.description}</p>
-                <Button variant="outline" className="w-full">צפה עכשיו</Button>
+                <Button 
+                  variant="outline" 
+                  className="w-full hover:bg-blue-600 hover:text-white border-blue-600 text-blue-600"
+                >
+                  צפה עכשיו
+                </Button>
               </CardContent>
             </Card>
           ))}
