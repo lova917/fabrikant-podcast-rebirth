@@ -11,13 +11,13 @@ const Episodes = () => {
       image: "/lovable-uploads/df11ae54-bd9e-4ac3-b220-4e74cde1de08.png"
     },
     {
-      title: "הרב דוד לאו",
-      description: "שיחה מרתקת על יהדות ומסורת",
-      image: "/lovable-uploads/ad3ef619-019b-4400-b9fe-b718fbe01146.png"
+      title: "צבי יחזקאלי",
+      description: "כתב לענייני ערבית",
+      image: "/lovable-uploads/60c0ef86-6d52-4359-b5c9-92035d0ee13b.png"
     },
     {
-      title: "אביב גפן",
-      description: "על מוזיקה, יצירה וחיים",
+      title: "האלוף יצחק בריק",
+      description: "מפקד בכיר לשעבר בצה״ל",
       image: "/lovable-uploads/27ba892d-db43-4cf0-852b-f1a4fe5a24ee.png"
     }
   ];

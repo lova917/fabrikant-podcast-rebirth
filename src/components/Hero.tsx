@@ -1,6 +1,7 @@
 
 import React from "react";
 import { Button } from "./ui/button";
+import { ChevronLeft } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -8,20 +9,30 @@ const Hero = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center z-0"
         style={{
-          backgroundImage: "url('/lovable-uploads/2360f291-fe2c-4f63-8633-46ba2ea6b631.png')",
+          backgroundImage: "url('/lovable-uploads/29a91f7b-7cb2-4bfa-9f60-40029afa3e5d.png')",
           filter: "brightness(0.7)"
         }}
       />
       <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
-        <h1 className="text-6xl font-bold mb-6">משה פבריקנט</h1>
-        <p className="text-2xl mb-8">פודקאסט, תוכן והרצאות על החיים עצמם</p>
-        <Button 
-          size="lg"
-          variant="default"
-          className="bg-blue-600 hover:bg-blue-700 text-lg px-8"
-        >
-          לכל הפרקים
-        </Button>
+        <h1 className="text-7xl font-bold mb-6 tracking-tight">משה פבריקנט</h1>
+        <p className="text-2xl mb-12 opacity-90">פודקאסט, תוכן והרצאות על החיים עצמם</p>
+        <div className="flex gap-4 justify-center">
+          <Button 
+            size="lg"
+            variant="default"
+            className="bg-blue-600 hover:bg-blue-700 text-lg px-8"
+          >
+            לכל הפרקים
+            <ChevronLeft className="mr-2 h-5 w-5" />
+          </Button>
+          <Button 
+            size="lg"
+            variant="outline"
+            className="text-lg px-8 text-white border-white hover:bg-white/10"
+          >
+            דבר איתי
+          </Button>
+        </div>
       </div>
     </div>
   );
